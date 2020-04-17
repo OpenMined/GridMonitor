@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/GridMonitor/static/css/main.559b6391.chunk.css",
+    "main.js": "/GridMonitor/static/js/main.61edf52e.chunk.js",
+    "main.js.map": "/GridMonitor/static/js/main.61edf52e.chunk.js.map",
+    "runtime-main.js": "/GridMonitor/static/js/runtime-main.a46d5c82.js",
+    "runtime-main.js.map": "/GridMonitor/static/js/runtime-main.a46d5c82.js.map",
+    "static/js/2.1479318b.chunk.js": "/GridMonitor/static/js/2.1479318b.chunk.js",
+    "static/js/2.1479318b.chunk.js.map": "/GridMonitor/static/js/2.1479318b.chunk.js.map",
+    "index.html": "/GridMonitor/index.html",
+    "precache-manifest.fce18c1532fb79166748ebd1080e20a6.js": "/GridMonitor/precache-manifest.fce18c1532fb79166748ebd1080e20a6.js",
+    "service-worker.js": "/GridMonitor/service-worker.js",
+    "static/css/main.559b6391.chunk.css.map": "/GridMonitor/static/css/main.559b6391.chunk.css.map",
+    "static/js/2.1479318b.chunk.js.LICENSE.txt": "/GridMonitor/static/js/2.1479318b.chunk.js.LICENSE.txt",
+    "static/media/background-gradient.css": "/GridMonitor/static/media/gradientbg.bd2e1d32.svg",
+    "static/media/gridwhite.189cbc26.svg": "/GridMonitor/static/media/gridwhite.189cbc26.svg",
+    "static/media/brand.css": "/GridMonitor/static/media/pygrid.01b839c4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a46d5c82.js",
+    "static/js/2.1479318b.chunk.js",
+    "static/css/main.559b6391.chunk.css",
+    "static/js/main.61edf52e.chunk.js"
+  ]
+}
