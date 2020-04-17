@@ -1,0 +1,254 @@
+.alert-horiz-gradient {
+  background: linear-gradient(to right, #c3707c 0%, #ef996b 100%);
+}
+
+.alert-diag-gradient {
+  background: linear-gradient(135deg, #c3707c 0%, #ef996b 100%);
+}
+
+.warning-horiz-gradient {
+  background: linear-gradient(to right, #ef996b 0%, #f1bf7a 100%);
+}
+
+.warning-diag-gradient {
+  background: linear-gradient(135deg, #ef996b 0%, #f1bf7a 100%);
+}
+
+.success-horiz-gradient {
+  background: linear-gradient(to right, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.success-diag-gradient {
+  background: linear-gradient(135deg, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.primary-horiz-gradient {
+  background: linear-gradient(to right, #62a4ae 0%, #767ea1 100%);
+}
+
+.primary-diag-gradient {
+  background: linear-gradient(135deg, #62a4ae 0%, #767ea1 100%);
+}
+
+.alert-horiz-gradient {
+  background: linear-gradient(to right, #c3707c 0%, #ef996b 100%);
+}
+
+.alert-diag-gradient {
+  background: linear-gradient(135deg, #c3707c 0%, #ef996b 100%);
+}
+
+.warning-horiz-gradient {
+  background: linear-gradient(to right, #ef996b 0%, #f1bf7a 100%);
+}
+
+.warning-diag-gradient {
+  background: linear-gradient(135deg, #ef996b 0%, #f1bf7a 100%);
+}
+
+.success-horiz-gradient {
+  background: linear-gradient(to right, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.success-diag-gradient {
+  background: linear-gradient(135deg, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.primary-horiz-gradient {
+  background: linear-gradient(to right, #62a4ae 0%, #767ea1 100%);
+}
+
+.primary-diag-gradient {
+  background: linear-gradient(135deg, #62a4ae 0%, #767ea1 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+}
+h1.not-capped,
+h2.not-capped,
+h3.not-capped,
+h4.not-capped,
+h5.not-capped,
+h6.not-capped {
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 28.8px;
+}
+@media (min-width: 640px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+@media (min-width: 640px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+
+h3 {
+  font-size: 20.8px;
+}
+@media (min-width: 640px) {
+  h3 {
+    font-size: 32px;
+  }
+}
+
+h4 {
+  font-size: 18.2px;
+}
+@media (min-width: 640px) {
+  h4 {
+    font-size: 26px;
+  }
+}
+
+h5 {
+  font-size: 16px;
+}
+@media (min-width: 640px) {
+  h5 {
+    font-size: 20px;
+  }
+}
+
+h6 {
+  font-size: 14.4px;
+}
+@media (min-width: 640px) {
+  h6 {
+    font-size: 16px;
+  }
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #62a4ae;
+  transition: color 200ms ease-in-out;
+}
+a:hover {
+  color: #4b8992;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+.card {
+  position: relative;
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  will-change: transform;
+}
+.card .header .subtitle {
+  margin-top: 0px;
+  color: #ccc;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+}
+@media (min-width: 640px) {
+  .card .header .subtitle {
+    margin-bottom: 10px;
+  }
+}
+.card .header .heading {
+  margin-top: 0px;
+  color: #222;
+}
+@media (min-width: 640px) {
+  .card .header .heading {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1440px) {
+  .card .header .heading {
+    font-size: 1.35rem;
+  }
+}
+.card .content {
+  color: #808080;
+  font-size: 1.1rem;
+  line-height: 2.25rem;
+  max-height: 175px;
+  overflow: hidden;
+}
+.card .content.no-links {
+  max-height: 100%;
+}
+.card .links {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+@media (min-width: 1024px) {
+  .card .links {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 100%;
+  }
+}
+.card .links .content-link:last-of-type a {
+  margin-bottom: 0px;
+}
+.card .links .content-link a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card .links .content-link a:hover .text {
+  color: #222;
+}
+.card .links .content-link a .icon {
+  background: #000;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.card .links .content-link a .text {
+  color: #808080;
+  font-size: 0.9rem;
+  transition: color 200ms ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+}

@@ -1,0 +1,63 @@
+@import '../../variables';
+
+$input-font-size: 0.9rem;
+$input-hover: 5%;
+$input-color: #EFEFEF;
+$input-padding: 10px;
+
+// TODO: More specific selectors
+.input,
+input,
+input[type='submit'] {
+  display: block;
+  background: $input-color;
+  color: $black;
+  @include capped-text(1.5px);
+  font-weight: $extra-bold-weight;
+  font-size: $input-font-size;
+  white-space: nowrap;
+  border: 0px;
+  margin-bottom: $small-space;
+  padding: $input-padding;
+  border-radius: $border-radius;
+  cursor: pointer;
+  transition: background $anim-time $anim-func;
+  &:hover {
+    background: darken($input-color, $input-hover);
+    color: $black;
+  }
+  &.white {
+    background: $white;
+    color: $black;
+    &:hover {
+      background: darken($white, $input-hover);
+    }
+  }
+  &.black {
+    background: $off-black;
+    &:hover {
+      background: lighten($off-black, $input-hover);
+    }
+  }
+  &.expanded {
+    width: calc(100% - 20px);
+  }
+  &.centered {
+    display: block;
+    margin: 0px auto $small-space auto;
+  }
+  &[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+.input-label {
+    font-family: $body-font;
+    align-self: start;
+    font-weight: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $black;
+}

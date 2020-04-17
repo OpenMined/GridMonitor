@@ -1,0 +1,21 @@
+.connect {
+    font-family: 'Rubik' sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 20vw;
+    }
+
+    form {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,241 @@
+.alert-horiz-gradient {
+  background: linear-gradient(to right, #c3707c 0%, #ef996b 100%);
+}
+
+.alert-diag-gradient {
+  background: linear-gradient(135deg, #c3707c 0%, #ef996b 100%);
+}
+
+.warning-horiz-gradient {
+  background: linear-gradient(to right, #ef996b 0%, #f1bf7a 100%);
+}
+
+.warning-diag-gradient {
+  background: linear-gradient(135deg, #ef996b 0%, #f1bf7a 100%);
+}
+
+.success-horiz-gradient {
+  background: linear-gradient(to right, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.success-diag-gradient {
+  background: linear-gradient(135deg, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.primary-horiz-gradient {
+  background: linear-gradient(to right, #62a4ae 0%, #767ea1 100%);
+}
+
+.primary-diag-gradient {
+  background: linear-gradient(135deg, #62a4ae 0%, #767ea1 100%);
+}
+
+.alert-horiz-gradient {
+  background: linear-gradient(to right, #c3707c 0%, #ef996b 100%);
+}
+
+.alert-diag-gradient {
+  background: linear-gradient(135deg, #c3707c 0%, #ef996b 100%);
+}
+
+.warning-horiz-gradient {
+  background: linear-gradient(to right, #ef996b 0%, #f1bf7a 100%);
+}
+
+.warning-diag-gradient {
+  background: linear-gradient(135deg, #ef996b 0%, #f1bf7a 100%);
+}
+
+.success-horiz-gradient {
+  background: linear-gradient(to right, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.success-diag-gradient {
+  background: linear-gradient(135deg, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.primary-horiz-gradient {
+  background: linear-gradient(to right, #62a4ae 0%, #767ea1 100%);
+}
+
+.primary-diag-gradient {
+  background: linear-gradient(135deg, #62a4ae 0%, #767ea1 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+}
+h1.not-capped,
+h2.not-capped,
+h3.not-capped,
+h4.not-capped,
+h5.not-capped,
+h6.not-capped {
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 28.8px;
+}
+@media (min-width: 640px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+@media (min-width: 640px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+
+h3 {
+  font-size: 20.8px;
+}
+@media (min-width: 640px) {
+  h3 {
+    font-size: 32px;
+  }
+}
+
+h4 {
+  font-size: 18.2px;
+}
+@media (min-width: 640px) {
+  h4 {
+    font-size: 26px;
+  }
+}
+
+h5 {
+  font-size: 16px;
+}
+@media (min-width: 640px) {
+  h5 {
+    font-size: 20px;
+  }
+}
+
+h6 {
+  font-size: 14.4px;
+}
+@media (min-width: 640px) {
+  h6 {
+    font-size: 16px;
+  }
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #62a4ae;
+  transition: color 200ms ease-in-out;
+}
+a:hover {
+  color: #4b8992;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+.input,
+input,
+input[type="submit"] {
+  display: block;
+  background: #efefef;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-weight: 900;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  border: 0px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 200ms ease-in-out;
+}
+.input:hover,
+input:hover,
+input[type="submit"]:hover {
+  background: #e2e2e2;
+  color: #000;
+}
+.input.white,
+input.white,
+input[type="submit"].white {
+  background: #fff;
+  color: #000;
+}
+.input.white:hover,
+input.white:hover,
+input[type="submit"].white:hover {
+  background: #f2f2f2;
+}
+.input.black,
+input.black,
+input[type="submit"].black {
+  background: #222;
+}
+.input.black:hover,
+input.black:hover,
+input[type="submit"].black:hover {
+  background: #2f2f2f;
+}
+.input.expanded,
+input.expanded,
+input[type="submit"].expanded {
+  width: calc(100% - 20px);
+}
+.input.centered,
+input.centered,
+input[type="submit"].centered {
+  display: block;
+  margin: 0px auto 10px auto;
+}
+.input[disabled],
+input[disabled],
+input[type="submit"][disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.input-label {
+  font-family: "Overpass", sans-serif;
+  align-self: start;
+  font-weight: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+}

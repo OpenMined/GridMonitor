@@ -1,0 +1,296 @@
+.alert-horiz-gradient {
+  background: linear-gradient(to right, #c3707c 0%, #ef996b 100%);
+}
+
+.alert-diag-gradient {
+  background: linear-gradient(135deg, #c3707c 0%, #ef996b 100%);
+}
+
+.warning-horiz-gradient {
+  background: linear-gradient(to right, #ef996b 0%, #f1bf7a 100%);
+}
+
+.warning-diag-gradient {
+  background: linear-gradient(135deg, #ef996b 0%, #f1bf7a 100%);
+}
+
+.success-horiz-gradient {
+  background: linear-gradient(to right, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.success-diag-gradient {
+  background: linear-gradient(135deg, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.primary-horiz-gradient {
+  background: linear-gradient(to right, #62a4ae 0%, #767ea1 100%);
+}
+
+.primary-diag-gradient {
+  background: linear-gradient(135deg, #62a4ae 0%, #767ea1 100%);
+}
+
+.alert-horiz-gradient {
+  background: linear-gradient(to right, #c3707c 0%, #ef996b 100%);
+}
+
+.alert-diag-gradient {
+  background: linear-gradient(135deg, #c3707c 0%, #ef996b 100%);
+}
+
+.warning-horiz-gradient {
+  background: linear-gradient(to right, #ef996b 0%, #f1bf7a 100%);
+}
+
+.warning-diag-gradient {
+  background: linear-gradient(135deg, #ef996b 0%, #f1bf7a 100%);
+}
+
+.success-horiz-gradient {
+  background: linear-gradient(to right, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.success-diag-gradient {
+  background: linear-gradient(135deg, #9bcc9a 0%, #5cb5a4 100%);
+}
+
+.primary-horiz-gradient {
+  background: linear-gradient(to right, #62a4ae 0%, #767ea1 100%);
+}
+
+.primary-diag-gradient {
+  background: linear-gradient(135deg, #62a4ae 0%, #767ea1 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+}
+h1.not-capped,
+h2.not-capped,
+h3.not-capped,
+h4.not-capped,
+h5.not-capped,
+h6.not-capped {
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 28.8px;
+}
+@media (min-width: 640px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+@media (min-width: 640px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+
+h3 {
+  font-size: 20.8px;
+}
+@media (min-width: 640px) {
+  h3 {
+    font-size: 32px;
+  }
+}
+
+h4 {
+  font-size: 18.2px;
+}
+@media (min-width: 640px) {
+  h4 {
+    font-size: 26px;
+  }
+}
+
+h5 {
+  font-size: 16px;
+}
+@media (min-width: 640px) {
+  h5 {
+    font-size: 20px;
+  }
+}
+
+h6 {
+  font-size: 14.4px;
+}
+@media (min-width: 640px) {
+  h6 {
+    font-size: 16px;
+  }
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #62a4ae;
+  transition: color 200ms ease-in-out;
+}
+a:hover {
+  color: #4b8992;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+.button,
+button,
+input[type="submit"] {
+  display: inline-block;
+  background: #62a4ae;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-weight: 900;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  border: 0px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 200ms ease-in-out;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover {
+  background: #5498a3;
+  color: #fff;
+}
+.button.success,
+button.success,
+input[type="submit"].success {
+  background: #9bcc9a;
+  color: #000;
+}
+.button.success:hover,
+button.success:hover,
+input[type="submit"].success:hover {
+  background: #8ac389;
+}
+.button.error,
+button.error,
+input[type="submit"].error {
+  background: #c3707c;
+}
+.button.error:hover,
+button.error:hover,
+input[type="submit"].error:hover {
+  background: #bb5e6c;
+}
+.button.white,
+button.white,
+input[type="submit"].white {
+  background: #fff;
+  color: #000;
+}
+.button.white:hover,
+button.white:hover,
+input[type="submit"].white:hover {
+  background: #f2f2f2;
+}
+.button.black,
+button.black,
+input[type="submit"].black {
+  background: #222;
+}
+.button.black:hover,
+button.black:hover,
+input[type="submit"].black:hover {
+  background: #2f2f2f;
+}
+.button.small,
+button.small,
+input[type="submit"].small {
+  font-size: 0.72rem;
+  padding: 12px;
+}
+.button.large,
+button.large,
+input[type="submit"].large {
+  font-size: 1.08rem;
+  padding: 18px;
+}
+.button.expanded,
+button.expanded,
+input[type="submit"].expanded {
+  width: 100%;
+}
+.button.centered,
+button.centered,
+input[type="submit"].centered {
+  display: block;
+  margin: 0px auto 10px auto;
+}
+.button.dark-gray,
+button.dark-gray,
+input[type="submit"].dark-gray {
+  background: #323232;
+}
+.button.dark-gray:hover,
+button.dark-gray:hover,
+input[type="submit"].dark-gray:hover {
+  background: #3f3f3f;
+}
+.button.medium-gray,
+button.medium-gray,
+input[type="submit"].medium-gray {
+  background: #808080;
+}
+.button.medium-gray:hover,
+button.medium-gray:hover,
+input[type="submit"].medium-gray:hover {
+  background: #8d8d8d;
+}
+.button.light-gray,
+button.light-gray,
+input[type="submit"].light-gray {
+  background: #ccc;
+  color: #000;
+}
+.button.light-gray:hover,
+button.light-gray:hover,
+input[type="submit"].light-gray:hover {
+  background: #bfbfbf;
+}
+.button[disabled],
+button[disabled],
+input[type="submit"][disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}

@@ -1,0 +1,16 @@
+$background-img-url: '../../assets/img/pygrid.svg';
+$img-size: 100px;
+
+.brand {
+    .pygrid-logo {
+        background-image: url($background-img-url);
+        height: $img-size;
+        width: $img-size;
+    }
+    
+    .title {
+        text-transform: none;
+        font-weight: normal;
+        margin: 0;
+    }
+}
