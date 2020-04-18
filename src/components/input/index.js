@@ -10,6 +10,8 @@ const Input = ({
   expanded = false,
   centered = false,
   className,
+  value,
+  setValue,
   ...otherProps
 }) => {
   const classes = cn("input", className, size, status, {
@@ -20,7 +22,13 @@ const Input = ({
   return (
     <>
       <label className="input-label">{label}</label>
-      <input type="text" className={classes} {...otherProps}>
+      <input
+        value={value}
+        onChange={e => setValue(e.target.value)}
+        type="text"
+        className={classes}
+        {...otherProps}
+      >
         {children}
       </input>
     </>

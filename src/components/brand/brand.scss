@@ -2,6 +2,10 @@ $background-img-url: '../../assets/img/pygrid.svg';
 $img-size: 100px;
 
 .brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     .pygrid-logo {
         background-image: url($background-img-url);
         height: $img-size;

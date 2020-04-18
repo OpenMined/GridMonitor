@@ -1,0 +1,40 @@
+@import '../../variables';
+
+$border-radius: 10px;
+$icon-size: 30px;
+
+.dashboard {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    .pygrid-icon {
+        margin-right: 5px;
+        background-image: url('../../assets/img/pygrid.svg');
+        height: $icon-size;
+        width: $icon-size;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        color: white;
+        background: $off-black;
+        padding: 10px;
+        border-top-left-radius: $border-radius;
+        border-top-right-radius: $border-radius;
+        box-shadow: #1A1A1A33 0px 5px 10px;
+    }
+
+    .card {
+        padding: 0 0 30px 0;
+        height: 80vh;
+        width: 80vw;
+        border-radius: $border-radius;
+    }
+}

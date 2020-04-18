@@ -1,21 +1,29 @@
-import React from "react";
-import { ReactComponent as Logo } from "./assets/img/gridwhite.svg";
+import React, { useEffect } from "react";
 import "./App.css";
 import Connect from "./routes/Connect";
+import { connect } from "react-redux";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+import Dashboard from "./routes/Dashboard";
+import { tryAutoConnect } from "./actions/monitor";
+
+const App = ({ tryAutoConnect }) => {
+  useEffect(() => {
+    tryAutoConnect();
+  });
+
   return (
-    // <div className="App">
-    //   <header className="header">
-    //     <div className="brand">
-    //       <Logo className="logo" />
-    //       <h2 className="title"> Grid Monitor</h2>
-    //     </div>
-    //     <span>Address: http://35.178.211.39:8080/</span>
-    //   </header>
-    // </div>
-    <Connect />
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Connect />
+        </Route>
+        <Route exact path="/dashboard">
+          <Dashboard />
+        </Route>
+      </Switch>
+    </Router>
   );
-}
+};
 
-export default App;
+export default connect(null, { tryAutoConnect })(App);
