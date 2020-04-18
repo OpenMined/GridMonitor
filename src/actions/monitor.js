@@ -1,3 +1,5 @@
+import { SET_ADDRESS } from "./types";
+
 export const setAddress = url => dispatch => {
   localStorage.setItem("network_address", url);
   dispatch({
