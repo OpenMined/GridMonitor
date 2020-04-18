@@ -16,22 +16,22 @@ const fetchData = async (url, route) => {
 
 /*** Public Actions ***/
 
-export const fetchNodes = async url => {
+export const fetchNodes = url => async dispatch => {
   let data = await fetchData(url, "nodes");
   dispatch({ type: FETCH_NODES, payload: data });
 };
 
-export const fetchModels = async url => {
+export const fetchModels = url => async dispatch => {
   let data = await fetchData(url, "models");
   dispatch({ type: FETCH_MODELS, payload: data });
 };
 
-export const fetchDatasets = async url => {
+export const fetchDatasets = url => async dispatch => {
   let data = await fetchData(url, "datasets");
   dispatch({ type: FETCH_DATASETS, payload: data });
 };
 
-export const fetchNode = async ({ url, id }) => {
+export const fetchNode = ({ url, id }) => async dispatch => {
   let data = await fetchData(url, `node/${id}`);
   dispatch({ type: FETCH_NODE, payload: data });
 };

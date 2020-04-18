@@ -11,7 +11,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "homepage": "https://OpenMined.github.io/GridMonitor",
+  "homepage": "https://openmined.github.io/GridMonitor",
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
       "prettier --double-quote --write",
@@ -32,7 +32,7 @@
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",  
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "precommit": "lint-staged",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
