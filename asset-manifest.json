@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/GridMonitor/static/css/main.559b6391.chunk.css",
-    "main.js": "/GridMonitor/static/js/main.61edf52e.chunk.js",
-    "main.js.map": "/GridMonitor/static/js/main.61edf52e.chunk.js.map",
+    "main.css": "/GridMonitor/static/css/main.1e9716bd.chunk.css",
+    "main.js": "/GridMonitor/static/js/main.9ccadb1c.chunk.js",
+    "main.js.map": "/GridMonitor/static/js/main.9ccadb1c.chunk.js.map",
     "runtime-main.js": "/GridMonitor/static/js/runtime-main.a46d5c82.js",
     "runtime-main.js.map": "/GridMonitor/static/js/runtime-main.a46d5c82.js.map",
-    "static/js/2.1479318b.chunk.js": "/GridMonitor/static/js/2.1479318b.chunk.js",
-    "static/js/2.1479318b.chunk.js.map": "/GridMonitor/static/js/2.1479318b.chunk.js.map",
+    "static/js/2.dae4ffe9.chunk.js": "/GridMonitor/static/js/2.dae4ffe9.chunk.js",
+    "static/js/2.dae4ffe9.chunk.js.map": "/GridMonitor/static/js/2.dae4ffe9.chunk.js.map",
     "index.html": "/GridMonitor/index.html",
-    "precache-manifest.fce18c1532fb79166748ebd1080e20a6.js": "/GridMonitor/precache-manifest.fce18c1532fb79166748ebd1080e20a6.js",
+    "precache-manifest.ebca073f0a838553d11beb303f5129b9.js": "/GridMonitor/precache-manifest.ebca073f0a838553d11beb303f5129b9.js",
     "service-worker.js": "/GridMonitor/service-worker.js",
-    "static/css/main.559b6391.chunk.css.map": "/GridMonitor/static/css/main.559b6391.chunk.css.map",
-    "static/js/2.1479318b.chunk.js.LICENSE.txt": "/GridMonitor/static/js/2.1479318b.chunk.js.LICENSE.txt",
+    "static/css/main.1e9716bd.chunk.css.map": "/GridMonitor/static/css/main.1e9716bd.chunk.css.map",
+    "static/js/2.dae4ffe9.chunk.js.LICENSE.txt": "/GridMonitor/static/js/2.dae4ffe9.chunk.js.LICENSE.txt",
     "static/media/background-gradient.css": "/GridMonitor/static/media/gradientbg.bd2e1d32.svg",
-    "static/media/gridwhite.189cbc26.svg": "/GridMonitor/static/media/gridwhite.189cbc26.svg",
-    "static/media/brand.css": "/GridMonitor/static/media/pygrid.01b839c4.svg"
+    "static/media/Dashboard.css": "/GridMonitor/static/media/pygrid.01b839c4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a46d5c82.js",
-    "static/js/2.1479318b.chunk.js",
-    "static/css/main.559b6391.chunk.css",
-    "static/js/main.61edf52e.chunk.js"
+    "static/js/2.dae4ffe9.chunk.js",
+    "static/css/main.1e9716bd.chunk.css",
+    "static/js/main.9ccadb1c.chunk.js"
   ]
 }
