@@ -2,6 +2,7 @@
   "name": "grid_monitor",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://openmined.github.io/GridMonitor",
   "dependencies": {
     "axios": "^0.19.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -11,7 +12,6 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "homepage": "https://openmined.github.io/GridMonitor",
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
       "prettier --double-quote --write",
