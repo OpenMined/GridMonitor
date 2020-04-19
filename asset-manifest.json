@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GridMonitor/static/css/main.b2d1ca30.chunk.css",
-    "main.js": "/GridMonitor/static/js/main.32d1fd42.chunk.js",
-    "main.js.map": "/GridMonitor/static/js/main.32d1fd42.chunk.js.map",
+    "main.js": "/GridMonitor/static/js/main.c760663b.chunk.js",
+    "main.js.map": "/GridMonitor/static/js/main.c760663b.chunk.js.map",
     "runtime-main.js": "/GridMonitor/static/js/runtime-main.a46d5c82.js",
     "runtime-main.js.map": "/GridMonitor/static/js/runtime-main.a46d5c82.js.map",
     "static/css/2.5c17b9f1.chunk.css": "/GridMonitor/static/css/2.5c17b9f1.chunk.css",
     "static/js/2.0951695b.chunk.js": "/GridMonitor/static/js/2.0951695b.chunk.js",
     "static/js/2.0951695b.chunk.js.map": "/GridMonitor/static/js/2.0951695b.chunk.js.map",
     "index.html": "/GridMonitor/index.html",
-    "precache-manifest.62dd83c2ef1bdda3c1227b1fb0214b3d.js": "/GridMonitor/precache-manifest.62dd83c2ef1bdda3c1227b1fb0214b3d.js",
+    "precache-manifest.fcfc3f3761cf3b78b39c75544da26612.js": "/GridMonitor/precache-manifest.fcfc3f3761cf3b78b39c75544da26612.js",
     "service-worker.js": "/GridMonitor/service-worker.js",
     "static/css/2.5c17b9f1.chunk.css.map": "/GridMonitor/static/css/2.5c17b9f1.chunk.css.map",
     "static/css/main.b2d1ca30.chunk.css.map": "/GridMonitor/static/css/main.b2d1ca30.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.5c17b9f1.chunk.css",
     "static/js/2.0951695b.chunk.js",
     "static/css/main.b2d1ca30.chunk.css",
-    "static/js/main.32d1fd42.chunk.js"
+    "static/js/main.c760663b.chunk.js"
   ]
 }

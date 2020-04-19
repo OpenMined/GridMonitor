@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e3cad0587f0aa874d378268c3c0799e",
+    "revision": "66667b6f9bdecdd9049264658e17ea99",
     "url": "/GridMonitor/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GridMonitor/static/css/2.5c17b9f1.chunk.css"
   },
   {
-    "revision": "ab0aed21f09097da1293",
+    "revision": "5dc35afce726f201dff0",
     "url": "/GridMonitor/static/css/main.b2d1ca30.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GridMonitor/static/js/2.0951695b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab0aed21f09097da1293",
-    "url": "/GridMonitor/static/js/main.32d1fd42.chunk.js"
+    "revision": "5dc35afce726f201dff0",
+    "url": "/GridMonitor/static/js/main.c760663b.chunk.js"
   },
   {
     "revision": "2c980f7aef9a6d632b08",
