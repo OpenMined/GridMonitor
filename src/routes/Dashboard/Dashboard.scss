@@ -2,6 +2,7 @@
 
 $border-radius: 10px;
 $icon-size: 30px;
+$shadow:#1A1A1A33 0px 5px 10px;
 
 .dashboard {
     font-family: 'Rubik', sans-serif;
@@ -9,6 +10,7 @@ $icon-size: 30px;
     height: 100vh;
     align-items: center;
     justify-content: center;
+
 
     .pygrid-icon {
         margin-right: 5px;
@@ -22,13 +24,55 @@ $icon-size: 30px;
 
     .header {
         display: flex;
-        align-items: center;
         color: white;
+        justify-content: space-between;
         background: $off-black;
         padding: 10px;
         border-top-left-radius: $border-radius;
         border-top-right-radius: $border-radius;
-        box-shadow: #1A1A1A33 0px 5px 10px;
+        box-shadow: $shadow;
+
+        .brand {
+            flex-direction: row;
+        }
+
+        .tabs {
+            margin: 0;
+
+            & > li {
+                border-radius: 2.5px;
+                border: none;
+                opacity: .5;
+            }
+            .react-tabs__tab--selected {
+                opacity: 1;
+                background: #323232;
+                color: white;
+
+                &:focus {
+                    box-shadow: none;
+                    outline: none; 
+
+                    &::after {
+                        background: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    .tab {
+        padding: 10px;
+        margin: 0 20px;
+
+        .title {
+            text-transform: none;
+            font-weight: normal;
+        }
+
+        .table {
+            box-shadow: $shadow;
+        }
     }
 
     .card {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { Redirect } from "react-router-dom";
 
@@ -23,9 +23,14 @@ const Connect = ({ setAddress, network }) => {
 
   const handleSubmit = event => {
     event.preventDefault();
+
     setAddress(url);
     setToDashboard(true);
   };
+
+  useEffect(() => {
+    if (network.address) setToDashboard(true);
+  }, [setToDashboard, network.address]);
 
   return (
     <div className="connect">

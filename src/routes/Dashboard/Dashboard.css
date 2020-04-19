@@ -183,12 +183,46 @@ b {
 }
 .dashboard .header {
   display: flex;
-  align-items: center;
   color: white;
+  justify-content: space-between;
   background: #222;
   padding: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  box-shadow: #1a1a1a33 0px 5px 10px;
+}
+.dashboard .header .brand {
+  flex-direction: row;
+}
+.dashboard .header .tabs {
+  margin: 0;
+}
+.dashboard .header .tabs > li {
+  border-radius: 2.5px;
+  border: none;
+  opacity: 0.5;
+}
+.dashboard .header .tabs .react-tabs__tab--selected {
+  opacity: 1;
+  background: #323232;
+  color: white;
+}
+.dashboard .header .tabs .react-tabs__tab--selected:focus {
+  box-shadow: none;
+  outline: none;
+}
+.dashboard .header .tabs .react-tabs__tab--selected:focus::after {
+  background: transparent;
+}
+.dashboard .tab {
+  padding: 10px;
+  margin: 0 20px;
+}
+.dashboard .tab .title {
+  text-transform: none;
+  font-weight: normal;
+}
+.dashboard .tab .table {
   box-shadow: #1a1a1a33 0px 5px 10px;
 }
 .dashboard .card {

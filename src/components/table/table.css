@@ -1,0 +1,30 @@
+main {
+  margin: auto;
+}
+
+tr.expandable > td {
+  box-shadow: inset 0 3px 6px -3px rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
+tr.expandable > td > .inner {
+  margin: 15px;
+  overflow: hidden;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+}

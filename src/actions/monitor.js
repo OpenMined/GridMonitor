@@ -10,8 +10,11 @@ export const setAddress = url => dispatch => {
 
 export const tryAutoConnect = () => dispatch => {
   const url = localStorage.getItem("network_address");
+
   dispatch({
     type: SET_ADDRESS,
     payload: url
   });
+
+  return url ? true : false;
 };

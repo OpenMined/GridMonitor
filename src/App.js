@@ -10,7 +10,7 @@ import { tryAutoConnect } from "./actions/monitor";
 const App = ({ tryAutoConnect }) => {
   useEffect(() => {
     tryAutoConnect();
-  });
+  }, [tryAutoConnect]);
 
   return (
     <Router basename="/GridMonitor">
