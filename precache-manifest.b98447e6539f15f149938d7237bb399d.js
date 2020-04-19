@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e3963a970a22e27d8f3161bae5d15fdf",
+    "revision": "f43a13ccb27a1b08f82eac113a33a67e",
     "url": "/GridMonitor/index.html"
   },
   {
-    "revision": "771399ac1f1125edb938",
+    "revision": "e89e8a0abde34a724dbd",
     "url": "/GridMonitor/static/css/main.1e9716bd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GridMonitor/static/js/2.dae4ffe9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "771399ac1f1125edb938",
-    "url": "/GridMonitor/static/js/main.9ccadb1c.chunk.js"
+    "revision": "e89e8a0abde34a724dbd",
+    "url": "/GridMonitor/static/js/main.d51f661f.chunk.js"
   },
   {
     "revision": "2c980f7aef9a6d632b08",
