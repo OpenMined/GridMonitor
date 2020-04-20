@@ -1,33 +1,40 @@
-main { margin: auto;  }
+@import '../../variables';
 
-// .table-container {
-//   margin: 10px;
-//   padding: 0;
-//   border: 1px solid #e5e5e5;
-//   border-radius: 5px;
-// }
-
-tr.expandable > td {
-  box-shadow: inset 0 3px 6px -3px rgba(0, 0, 0, .2);
-  padding: 0;
-}
-
-tr.expandable > td > .inner {
-  margin: 15px;
+.table {
+  width: 100%;
+  table-layout: fixed;
+  border-radius: 10px;
   overflow: hidden;
-}
 
-table, td, th {  
-    border: 1px solid #ddd;
+  .expanded {
     text-align: left;
   }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th, td {
+
+  td {
+    border-bottom: 1px solid #ededed;
+    text-align: center;
     padding: 15px;
+    vertical-align:middle;
+    font-size: 12px;
   }
-  
+
+  thead {
+    text-transform: uppercase;    
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+
+    td {
+      font-size: 14px; 
+    }
+  }
+
+}
+
+h1{
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}

@@ -190,6 +190,9 @@ b {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   box-shadow: #1a1a1a33 0px 5px 10px;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
 }
 .dashboard .header .brand {
   flex-direction: row;
@@ -223,11 +226,15 @@ b {
   font-weight: normal;
 }
 .dashboard .tab .table {
-  box-shadow: #1a1a1a33 0px 5px 10px;
+  box-shadow: #1a1a1a22 0px 5px 20px;
 }
 .dashboard .card {
   padding: 0 0 30px 0;
   height: 80vh;
   width: 80vw;
   border-radius: 10px;
+  overflow-y: scroll;
+}
+.dashboard ::-webkit-scrollbar {
+  display: none;
 }

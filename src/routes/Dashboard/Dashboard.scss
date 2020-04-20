@@ -1,20 +1,19 @@
-@import '../../variables';
+@import "../../variables";
 
 $border-radius: 10px;
 $icon-size: 30px;
-$shadow:#1A1A1A33 0px 5px 10px;
+$shadow: #1a1a1a33 0px 5px 10px;
 
 .dashboard {
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
 
-
     .pygrid-icon {
         margin-right: 5px;
-        background-image: url('../../assets/img/pygrid.svg');
+        background-image: url("../../assets/img/pygrid.svg");
         height: $icon-size;
         width: $icon-size;
         background-repeat: no-repeat;
@@ -31,6 +30,8 @@ $shadow:#1A1A1A33 0px 5px 10px;
         border-top-left-radius: $border-radius;
         border-top-right-radius: $border-radius;
         box-shadow: $shadow;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
 
         .brand {
             flex-direction: row;
@@ -42,7 +43,7 @@ $shadow:#1A1A1A33 0px 5px 10px;
             & > li {
                 border-radius: 2.5px;
                 border: none;
-                opacity: .5;
+                opacity: 0.5;
             }
             .react-tabs__tab--selected {
                 opacity: 1;
@@ -51,7 +52,7 @@ $shadow:#1A1A1A33 0px 5px 10px;
 
                 &:focus {
                     box-shadow: none;
-                    outline: none; 
+                    outline: none;
 
                     &::after {
                         background: transparent;
@@ -71,7 +72,7 @@ $shadow:#1A1A1A33 0px 5px 10px;
         }
 
         .table {
-            box-shadow: $shadow;
+            box-shadow: #1a1a1a22 0px 5px 20px;
         }
     }
 
@@ -80,5 +81,16 @@ $shadow:#1A1A1A33 0px 5px 10px;
         height: 80vh;
         width: 80vw;
         border-radius: $border-radius;
+        overflow-y: scroll;
     }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    // ::-webkit-scrollbar-track {
+    //     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    // }
+    // ::-webkit-scrollbar-thumb {
+    //     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    // }
 }
