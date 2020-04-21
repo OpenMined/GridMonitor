@@ -1,7 +1,109 @@
 import { SET_ADDRESS } from "../actions/types";
 
 const INITIAL_STATE = {
-  address: ""
+  address: "",
+  nodes: [
+    {
+      id: "bob",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bill"],
+      location: {}
+    },
+    {
+      id: "bill",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bob"],
+      location: {}
+    },
+    {
+      id: "bob",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bill"],
+      location: {}
+    },
+    {
+      id: "bill",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bob"],
+      location: {}
+    },
+    {
+      id: "bob",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bill"],
+      location: {}
+    },
+    {
+      id: "bill",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bob"],
+      location: {}
+    },
+    {
+      id: "bob",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bill"],
+      location: {}
+    },
+    {
+      id: "bill",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bob"],
+      location: {}
+    },
+    {
+      id: "bob",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bill"],
+      location: {}
+    },
+    {
+      id: "bill",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bob"],
+      location: {}
+    },
+    {
+      id: "bob",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bill"],
+      location: {}
+    },
+    {
+      id: "bill",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bob"],
+      location: {}
+    },
+    {
+      id: "bob",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bill"],
+      location: {}
+    },
+    {
+      id: "bill",
+      address: "127.0.0.1",
+      status: "online",
+      nodes: ["bob"],
+      location: {}
+    }
+  ],
+  datasets: [],
+  models: []
 };
 
 export default (state = INITIAL_STATE, action) => {
